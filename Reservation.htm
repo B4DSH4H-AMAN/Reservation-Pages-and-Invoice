@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    input { border-radius: 4px; }
+</style>
+<body>
+    <p>
+        <a href="/HomePage.htm">Home</a>
+        <a href="/Yurts.htm">Yurts</a>
+        <a href="/Activities.htm"">Activities</a>
+        <a href="/Reservation.htm">Reservation</a>
+        <h1>Reservations at Atlantic Trails</h1>
+        <h3>Contact Us Today!</h3>
+        <h1>Reservations Form</h1>
+    </p>
+
+    <form action="action.php" method="POST">
+        <table>
+            <tr>
+                <td><label style="padding-right: 75px;">First Name:</label></td>
+                <td><input type="text" id="Fname" name="Fname" placeholder="Enter Your First Name"></td>
+            </tr>
+            <tr>
+                <td><label style="padding-right: 75px;">Last Name:</label></td>
+                <td><input type="text" id="Lname" name="Lname" placeholder="Enter Your Last Name"></td>
+            </tr>
+            <tr>
+                <td><B>Address</b></td>
+            </tr>
+            <tr>
+                <td><label style="padding-right: 75px;">Number & Street: </label></td>
+                <td><input type="text" id="Number&Street" name="Number&Street"></td>
+            </tr>
+            <tr>
+                <td><label style="padding-right: 75px;">City: </label></td>
+                <td><input type="text" id="City" name="City"></td>
+            </tr>
+            <tr>
+                <td><label style="padding-right: 75px;">State: </label></td>
+                <td><input type="text" id="State" name="State"></td>
+            </tr>
+            <tr>
+                <td><label style="padding-right: 75px;">Zip Code: </label></td>
+                <td><input type="text" id="Zip-Code" name="Zip-Code"></td>
+            </tr>
+            <tr>
+                <td><label style="padding-right: 75px;">Check-in Date: </label></td>
+                <td><input type="date" id="Check-in-Date" name="Check-in-Date"></td>
+            </tr>
+            <tr>
+                <td><label style="padding-right: 75px;">Check-out Date: </label></td>
+                <td><input type="date" id="Check-out-Date" name="Check-out-Date"></td>
+            </tr>
+            <tr>
+                <td><label style="padding-right: 75px;">Number of People: </label></td>
+                <td><input type="text" id="People" name="People"></td>
+            </tr>
+            <tr>
+                <td><label style="padding-right: 75px;">Phone: </label></td>
+                <td><input type="tel" id="Phone" name="Phone"> (###)###-###</td>
+            </tr>
+            <tr>
+                <td><label style="padding-right: 75px;">E-mail Address: </label></td>
+                <td><input type="email" id="Email" name="Email"></td>
+            </tr>
+            <tr>
+                <td><label style="padding-right: 75px;">Payment Method: </label></td>
+                <td><input type="text" id="Payment" name="Payment"></td>
+            </tr>
+           <tr>
+                <td><label style="padding-right: 75px;">Card Number: </label></td>
+                <td><input type="text" id="Card-Number" name="Card-Number"></td>
+            </tr>
+            <tr>
+                <td><label style="padding-right: 75px;">Special Requests: </label></td>
+                <td><textarea type="text" id="Requests" name="Requests" style="border-radius: 4px;"></textarea></td>
+            </tr>
+        </table>
+        <input type="submit" value="Submit">
+        <input type="button" value="Clear">
+    </form>
+
+    <P style="padding-top:55px;">
+        Atlantic Trails Resort<br>
+        One Normal Ave, Montclair<br>
+        New Jersey NJ 07043<br>
+        973-973-4166
+    </P>
+</body>
+</html>
